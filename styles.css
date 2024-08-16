@@ -523,3 +523,125 @@
     margin: 0 auto;
     padding-bottom: 40px;
 }
+
+/* responsive design for mobile devices */ 
+
+@media screen and (max-width: 576px) {
+    .nav-heading {
+        padding: 0 20px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .header-content{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .hc-part{
+        margin: 0 auto;
+    }
+    .hc-heading{
+        font-size: 2.25rem;
+        margin: 0 0;
+        max-width: 350px;
+    }
+    .hc-description{
+        max-width: 300px;
+    }
+    .ms1-content{
+        max-width: 320px;
+        align-items: center;
+        display: inline;
+    }
+    .heading-primary{
+        font-size: 2rem;
+    }
+
+    .ms1-images {
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        max-width: 350px;
+        margin: 10px auto;
+        align-items: center;
+    }
+    .image-box{
+        margin-bottom: 40px;
+    }
+    .main-section2{
+        margin: 20px 20px;
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .ms2-content{
+        max-width: 300px;
+        align-items: center;
+        padding: 30px 20px 30px 20px; 
+        margin: 0 auto;
+    }
+    .ms2-content .btn-primary{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .ms2-img{
+        max-width: 280px;
+        height: 200px;
+        padding: 5px 20px 30px 20px;
+        border-radius: 10%;
+    }
+    .main-section3{
+        margin: 50px 20px 20px 20px;
+    }
+    .ms3-images{
+        height: 220px;
+    }
+    .main-section4{
+        margin: 50px 20px;
+        text-align: left;
+    }
+    .ms5-modify{
+        flex-direction: column;
+    }
+    .ms5-form{
+        max-width: 350px;
+    }
+    .ms5-form-deisgn{
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    .main-section7{
+        margin: 20px 20px;
+    }
+    .ms7-content, footer{
+        text-align: left;
+        padding: 20px 20px;
+    }
+    .membership{
+        flex-direction: column;
+    }
+    .membership-1, .membership-2{
+        margin: 15px 20px;
+    }
+    .ms6-content{
+        margin: 50px 20px 20px 20px;
+    }
+    .ms6-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer, .footer-content2{
+        flex-direction: column;
+    }
+    .footer-content2{
+        gap: 20px;
+    }
+    .footer-final{
+        text-align: center;
+    }
+    .footer-heading{
+        font-size: 4.3rem;
+        font-style: italic;
+    }
+    .footer{
+        margin: 0 auto;
+    }
+}
