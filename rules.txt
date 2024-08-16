@@ -1,0 +1,24 @@
+Assignment rules: 
+
+1. Small device break point: 576 px; 
+2. Medium device: 576px to 992px; Optional for marks; 
+3. Large device: 992px; 
+
+4. Provide width in percentage; especially section width; Helps to make responsive; 
+
+5. Make the css code for desktop first, then modify the css code's for changes in mobile device. 
+
+6. Assignment requirments: 
+7. main part 50 marks & challenges part 10 marks; 
+8. Main marks: 
+Nav bar;   need to hide the menu items for mobile device but must show that icon; 
+banner part, don't need the play icon; 
+Change your habit is also main part; 
+Run an Extra Mile also main part, and it has back ground shadow; 
+Trainings and Excercise optional section; No marks at all; 
+Meet our team also main part; 
+Footer section is also main part; 
+
+9. Challenge part: BMI calculator part including its chart & calculator form; Also, need to make an unique section to get the full marks; 
+
+10. Need to submit the Github repository and live link; 
