@@ -548,6 +548,9 @@
     .hc-description{
         max-width: 300px;
     }
+    .main-section1{
+        margin-top: 50px;
+    }
     .ms1-content{
         max-width: 320px;
         align-items: center;
@@ -640,6 +643,7 @@
     .footer-heading{
         font-size: 4.3rem;
         font-style: italic;
+        margin-top: 5px;
     }
     .footer{
         margin: 0 auto;
