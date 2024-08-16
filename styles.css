@@ -58,3 +58,144 @@
     border: 5px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
+
+/* header section design */ 
+
+.header-part{
+    background-color: #111111;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    align-items: center;
+    max-width: 1250px;
+}
+.nav-heading{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 190px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 4px 12px 0;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-items{
+    text-decoration: none;
+    font-size: 1.13rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.nav-home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+
+}
+
+/* Header content styles */ 
+
+.header-content{
+    display: flex;
+    gap: 167px;
+    max-width: 1250px;
+}
+.hc-part{
+    max-width: 520px;
+    margin-left: 190px;
+}
+.hc-heading{
+    font-size: 4.88rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    max-height: 280px;
+    margin-bottom: 28px;
+}
+.shape-text{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.88rem;
+    font-weight: 900;
+    color: #FFFFFF;
+
+}
+.hc-description{
+    margin-bottom: 28px;
+}
+.hc-buttons{
+    display: flex;
+    gap: 14px;
+}
+.btn-download{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 16px 48px;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    background-color: transparent;
+}
+.hc-img{
+    max-width: 350px;
+    height: 580px;
+    position: relative;
+}
+.hc-box1{
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    border-radius: 8px;
+    position: absolute;
+    top: 420px;
+    right: 250px;
+}
+.cricket-ball{
+    height: 35px;
+    width: 35px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 23px;
+    margin-top: 30px;
+}
+.hcb-content{
+    height: 55px;
+    width: 110px;
+    margin-right: 23px;
+}
+.hcb-number{
+    margin-bottom: 7px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.hc-box2{
+    background-color: rgba(48, 48, 48, 0.54);
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    right: -80px;
+}
+.hcb-number2{
+    margin: 20px 30px 0 20px;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.hcb-descrip{
+    margin: 2px auto 10px 20px;
+}
