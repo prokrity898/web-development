@@ -413,3 +413,46 @@
     top: 220px;
     left: 16px;
 }
+
+/* New section styles */ 
+
+.main-section7{
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    margin: 90px auto;
+    max-width: 1050px;
+    border-radius: 10px;
+}
+.ms7-content{
+    text-align: center;
+    padding-top: 50px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.membership{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.membership-1, .membership-2{
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 50px 35px;
+    padding: 0 25px 25px 25px;
+    max-width: 350px;
+}
+
+.membership-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.membership-btn{
+    max-width: 180px;
+}
