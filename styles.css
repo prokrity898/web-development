@@ -199,3 +199,217 @@
 .hcb-descrip{
     margin: 2px auto 10px 20px;
 }
+
+/* main section1 styles */ 
+
+.main-section1{
+    max-width: 1050px;
+    margin: 0 auto;
+    align-items: center;
+}
+.ms1-content{
+    max-width: 670px;
+    text-align: center;
+    margin: 100px auto;
+}
+.ms1-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 58px;
+    text-align: center;
+    gap: 40px;
+}
+
+/* main section 2 styles */ 
+
+.main-section2{
+    background-color: #222222;
+    margin: 100px auto;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    align-items: center;
+}
+
+.ms2-content{
+    width: 445px;
+    height: 290px;
+    padding-left: 50px;
+}
+
+.ms2-img{
+    height: 310px;
+    width: 360px;
+    padding: 30px 30px; 
+    border-radius: 18%;
+}
+
+/* main section 3 design */ 
+
+.main-section3{
+    max-width: 1050px;
+    margin: 0 auto; 
+    align-items: center;
+}
+.ms3-content{
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.ms3-images{
+    margin-top: 50px;
+    height: 400px;
+}
+.ms3-images img{
+    width: 100%;
+    height: 100%;
+}
+.ms3-img-box1{
+    display: flex;
+}
+.ms3-img-box2{
+    display: flex;
+}
+.ms3-img1{
+    width: 20%;
+    position: relative;
+}
+.ms3-img2{
+    width: 50%;
+}
+.ms3-img3{
+    width: 30%;
+}
+.ms3-img4{
+    width: 40%;
+}
+.ms3-img5{
+    width: 25%;
+}
+.ms3-img6{
+    width: 35%;
+}
+.ms3-para1{
+    color: #000000;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+/* main section 4 styles */ 
+
+.main-section4{
+    max-width: 680px;
+    margin: 200px auto 100px auto; 
+    align-items: center;
+    text-align: center;
+}
+
+/* main section 5 styles */ 
+
+.main-section5{
+    background-color: #222222;
+}
+.ms5-modify{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.main-section5 h3{
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.ms5-calc table{
+    border-collapse: collapse;
+    height: 220px;
+}
+.ms5-calc table th, td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.ms5-theading{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.ms5-tdata{
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ms5-para{
+    max-width: 580px;
+}
+.ms5-form-deisgn{
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+.ms5-form-items{
+    display: flex;
+    gap: 10px;
+}
+
+.ms5-form .ms5-form-items input,
+.ms5-form .ms5-form-items select {
+    flex: 1;
+    padding: 12px;
+    font-size: 1 rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+}
+
+.form-nav{
+    color: #000000;
+}
+
+
+/* main section 6 design */ 
+
+.main-section6{
+    max-width: 1050px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.ms6-content{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.ms6-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.ms6-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.img-content{
+    position:relative;
+}
+
+.img-content-position{
+    position: absolute;
+    top: 220px;
+    left: 16px;
+}
